@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Avatar Project</title>
+
+</head>
+<body>
+<h3>Please select an avatar</h3>
+<div class="area">
+    <button id="dog">Dog</button>
+    <button id="cat">Cat</button>
+    <button id="fox">Fox</button>
+    <button id="bird">Bird</button>
+    <button id="snake">Snake</button>
+    <button id="wolf">Wolf</button>
+</div>
+<div class="avatar">
+<img src="#">
+</div>
+</body>
+<script>
+    const dog = document.getElementById('dog')
+    const cat = document.getElementById('cat')
+    const fox = document.getElementById('fox')
+    const bird = document.getElementById('bird')
+    const snake = document.getElementById('snake')
+    const wolf = document.getElementById('wolf')
+    const img = document.querySelector('img')
+
+
+    dog.addEventListener('click', function(e){
+        img.src = "https://www.pngitem.com/pimgs/m/212-2120145_large-size-of-cartoon-face-app-ios-on.png"
+    });
+    cat.addEventListener('click', function(e){
+        img.src = "https://ih1.redbubble.net/image.701927244.8287/st,small,507x507-pad,600x600,f8f8f8.u3.jpg"
+    });
+    fox.addEventListener('click', function(e){
+        img.src = "https://www.prntr.com/images/fox-clipart-6.jpg"
+    });
+    bird.addEventListener('click', function(e){
+        img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5Wu9brYpcJJxiD9t02MQF6vmBr6qsoiz9Xip-fwtedBMU6kNYlwleakTj5hAUxV0kzM&usqp=CAU"
+    });
+    snake.addEventListener('click', function(e){
+        img.src = "https://illustoon.com/photo/2317.png"
+    });
+    wolf.addEventListener('click', function(e){
+        img.src = "https://i.etsystatic.com/16513370/r/il/b1297d/1384375808/il_570xN.1384375808_omnh.jpg"
+    });
+
+</script>
+</html>
